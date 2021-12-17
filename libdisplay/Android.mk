@@ -54,7 +54,7 @@ LOCAL_SRC_FILES := \
 include $(TOP)/hardware/samsung_slsi/$(TARGET_SOC)/libdisplaymodule/Android.mk
 
 LOCAL_MODULE_TAGS := eng
-LOCAL_MODULE := libexynosdisplay
+LOCAL_MODULE := libdisplay
 
 include $(TOP)/hardware/samsung_slsi/exynos/BoardConfigCFlags.mk
 include $(BUILD_SHARED_LIBRARY)

@@ -17,7 +17,7 @@ include $(CLEAR_VARS)
 
 LOCAL_PRELINK_MODULE := false
 LOCAL_SHARED_LIBRARIES := liblog libutils libcutils libexynosutils \
-			  libsync libexynosv4l2 libhwcutils libexynosdisplay \
+			  libsync libexynosv4l2 libhwcutils libdisplay \
 			  libmpp
 
 LOCAL_C_INCLUDES := \
